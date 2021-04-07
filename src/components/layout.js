@@ -8,8 +8,9 @@
 import * as React from "react"
 import PropTypes from "prop-types"
 import { useStaticQuery, graphql } from "gatsby"
-
+import Container from "@material-ui/core/Container"
 import Header from "./header"
+import Hero from "./hero"
 import "./layout.css"
 
 const Layout = ({ children }) => {
@@ -26,24 +27,15 @@ const Layout = ({ children }) => {
   return (
     <>
       <Header siteTitle={data.site.siteMetadata?.title || `Title`} />
-      <div
-        style={{
-          margin: `0 auto`,
-          maxWidth: 960,
-          padding: `0 1.0875rem 1.45rem`,
-        }}
-      >
-        <main>{children}</main>
-        <footer
-          style={{
-            marginTop: `2rem`,
-          }}
-        >
-          © {new Date().getFullYear()}, Built with
-          {` `}
-          <a href="https://www.gatsbyjs.com">Gatsby</a>
-        </footer>
-      </div>
+      <Hero />
+      <main>
+        <Container maxWidth="md">{children}</Container>
+      </main>
+      <footer>
+        <Container maxWidth="md">
+          © {new Date().getFullYear()}, Built by Kaifel of <b>First Pull</b>
+        </Container>
+      </footer>
     </>
   )
 }
