@@ -1,7 +1,7 @@
 html {
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
-  font: 120%/1.5em snes;
+  font: 140%/1.5em snes;
   box-sizing: border-box;
   overflow-y: scroll;
 }
@@ -612,9 +612,9 @@ footer {
   font-family: "Material Icons";
   font-size: 24px;
 }
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 600px) {
   html {
-    font-size: 100%;
+    font-size: 160%;
   }
   .MuiButtonBase-root {
     margin-left: 0 !important;

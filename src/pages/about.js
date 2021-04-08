@@ -1,5 +1,4 @@
 import * as React from "react"
-import { Link } from "gatsby"
 import Typography from "@material-ui/core/Typography"
 
 import Layout from "../components/layout"
@@ -31,7 +30,6 @@ const SecondPage = () => (
     <Typography variant="p" display="block" paragraph>
       <b>Healers:</b>Yergory, Tankfist, Mespropp
     </Typography>
-    <Link to="/">Go back to the homepage</Link>
   </Layout>
 )
 
