@@ -24,7 +24,7 @@ const SecondPage = () => (
       <b>Tanks:</b>Pheb, Kaifel
     </Typography>
     <Typography variant="p" display="block">
-      <b>DPS:</b>Fallenslayêr, Nevafox, Replay, Slothraxx, Puttris, Kiedra,
+      <b>DPS:</b>Fallenslayer, Nevafox, Replay, Slothraxx, Puttris, Kiedra,
       Ninjayoder, Fawkes, Gamerboypee, Elstra
     </Typography>
     <Typography variant="p" display="block" paragraph>
