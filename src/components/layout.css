@@ -617,3 +617,6 @@ button:active {
     font-size: 100%;
   }
 }
+.MuiTypography-root {
+  font-family: snes;
+}
