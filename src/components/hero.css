@@ -20,28 +20,17 @@
   position: absolute;
   left: 50%;
   bottom: 0;
-  transform: translate(-50%, -10%);
+  transform: translate(-50%, -30%);
   font-size: 18px;
   padding: 0 0.5em;
-}
-
-@media (min-width: 600px) {
-  .heroDetails {
-    font-size: 16px;
-  }
-}
-
-@media (min-width: 1000px) {
-  .heroDetails {
-    font-size: 26px;
-  }
+  width: 90%;
 }
 
 .heroHeadline {
   margin: 0;
   text-shadow: 0 0 0 transparent, 2px 2px 0 rgb(0 0 0 / 20%);
   font-weight: bold;
-  font-size: 150px;
+  font-size: 75px;
 }
 
 .heroTitle {
@@ -54,4 +43,23 @@
 .shortBio {
   margin: 0;
   text-shadow: 0 0 0 transparent, 2px 2px 0 rgb(0 0 0 / 20%);
+}
+
+@media (min-width: 600px) {
+  .heroDetails {
+    font-size: 16px;
+    transform: translate(-50%, -10%);
+  }
+  .heroHeadline {
+    font-size: 100px;
+  }
+}
+
+@media (min-width: 1000px) {
+  .heroDetails {
+    font-size: 26px;
+  }
+  .heroHeadline {
+    font-size: 150px;
+  }
 }
