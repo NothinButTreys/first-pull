@@ -13,22 +13,34 @@ const SecondPage = () => (
     <Typography variant="h5">Meet the Leaders</Typography>
     <Typography variant="h6">Guild Leaders</Typography>
     <Typography variant="p" display="block" paragraph>
-      Yergory, Fallenslayer
+      <span className="priest">Yergory</span>,{" "}
+      <span className="hunter">Fallenslayer</span>
     </Typography>
     <Typography variant="h6">Officers</Typography>
     <Typography variant="p" display="block" paragraph>
-      Replay, Pheb
+      <span className="mage">Replay</span>, <span className="dh">Pheb</span>
     </Typography>
     <Typography variant="h6">Main Raiders:</Typography>
     <Typography variant="p" display="block">
-      <b>Tanks:</b>Pheb, Kaifel
+      <b>Tanks:</b> <span className="dh">Pheb</span>,{" "}
+      <span className="dh">Kaifel</span>
     </Typography>
     <Typography variant="p" display="block">
-      <b>DPS:</b>Fallenslayer, Nevafox, Replay, Slothraxx, Puttris, Kiedra,
-      Ninjayoder, Fawkes, Gamerboypee, Elstra
+      <b>DPS:</b> <span className="hunter">Fallenslayer</span>,{" "}
+      <span className="shaman">Nevafox</span>,{" "}
+      <span className="mage">Replay</span>,{" "}
+      <span className="shaman">Slothraxx</span>,{" "}
+      <span className="warlock">Puttris</span>,{" "}
+      <span className="warrior">Kiedra</span>,
+      <span className="hunter">Ninjayoder</span>,{" "}
+      <span className="rogue">Fawkes</span>,{" "}
+      <span className="monk">Gamerboypee</span>,{" "}
+      <span className="dk">Elstra</span>
     </Typography>
     <Typography variant="p" display="block" paragraph>
-      <b>Healers:</b>Yergory, Tankfist, Mespropp
+      <b>Healers:</b> <span className="priest">Yergory</span>,{" "}
+      <span className="druid">Tankfist</span>,{" "}
+      <span className="shaman">Mespropp</span>
     </Typography>
   </Layout>
 )

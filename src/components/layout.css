@@ -629,3 +629,51 @@ footer {
 .MuiButtonBase-root {
   line-height: initial;
 }
+.dh {
+  color: #a330c9 !important;
+  text-shadow: 0.5px 0.5px rgb(114, 114, 114);
+}
+.dk {
+  color: #c41f3b !important;
+  text-shadow: 0.5px 0.5px rgb(114, 114, 114);
+}
+.druid {
+  color: #ff7d0a !important;
+  text-shadow: 0.5px 0.5px rgb(114, 114, 114);
+}
+.hunter {
+  color: #abd473 !important;
+  text-shadow: 0.5px 0.5px rgb(114, 114, 114);
+}
+.mage {
+  color: #69ccf0 !important;
+  text-shadow: 0.5px 0.5px rgb(114, 114, 114);
+}
+.monk {
+  color: #00ff96 !important;
+  text-shadow: 0.5px 0.5px rgb(114, 114, 114);
+}
+.paladin {
+  color: #f58cba !important;
+  text-shadow: 0.5px 0.5px rgb(114, 114, 114);
+}
+.priest {
+  color: #ffffff !important;
+  text-shadow: 0.5px 0.5px rgb(114, 114, 114);
+}
+.rogue {
+  color: #fff569 !important;
+  text-shadow: 0.5px 0.5px rgb(114, 114, 114);
+}
+.shaman {
+  color: #0070de !important;
+  text-shadow: 0.5px 0.5px rgb(114, 114, 114);
+}
+.warlock {
+  color: #9482c9 !important;
+  text-shadow: 0.5px 0.5px rgb(114, 114, 114);
+}
+.warrior {
+  color: #c79c6e !important;
+  text-shadow: 0.5px 0.5px rgb(114, 114, 114);
+}
