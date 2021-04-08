@@ -617,7 +617,6 @@ footer {
     font-size: 100%;
   }
   .MuiButtonBase-root {
-    line-height: initial;
     margin-left: 0 !important;
     margin-top: 5px;
     width: 100%;
@@ -625,4 +624,8 @@ footer {
 }
 .MuiTypography-root {
   font-family: snes;
+}
+
+.MuiButtonBase-root {
+  line-height: initial;
 }
