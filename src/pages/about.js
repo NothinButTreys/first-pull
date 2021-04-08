@@ -137,11 +137,11 @@ const SecondPage = () => (
         <Typography variant="p" className="mage" display="block">
           Replay
         </Typography>
+      </Grid>
+      <Grid xs={12} sm={4} align="center">
         <Typography variant="p" className="shaman" display="block">
           Slothraxx
         </Typography>
-      </Grid>
-      <Grid xs={12} sm={4} align="center">
         <Typography variant="p" className="warlock" display="block">
           Puttris
         </Typography>
