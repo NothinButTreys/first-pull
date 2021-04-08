@@ -9,7 +9,7 @@ body {
   margin: 0;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  color: hsla(0, 0%, 0%, 0.8);
+  color: #ffffff;
   font-family: snes;
   font-weight: normal;
   letter-spacing: 1px;
@@ -20,6 +20,7 @@ body {
   -webkit-font-feature-settings: "kern", "liga", "clig", "calt";
   font-feature-settings: "kern", "liga", "clig", "calt";
   padding-bottom: 50px;
+  background-color: rgb(68 68 68);
 }
 article,
 aside,
@@ -323,6 +324,7 @@ h6 {
   text-rendering: optimizeLegibility;
   font-size: 0.78405rem;
   line-height: 1.1;
+  color: #dedede;
 }
 hgroup {
   margin-left: 0;

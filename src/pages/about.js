@@ -1,47 +1,199 @@
 import * as React from "react"
 import Typography from "@material-ui/core/Typography"
-
+import Grid from "@material-ui/core/Grid"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 
 const SecondPage = () => (
   <Layout>
     <SEO title="About First Pull" />
-    <Typography variant="h3" align="center" display="block">
-      About First Pull
+    <Typography
+      variant="h3"
+      align="center"
+      display="block"
+      style={{ marginTop: "15px" }}
+    >
+      About
     </Typography>
-    <Typography variant="h5">Meet the Leaders</Typography>
-    <Typography variant="h6">Guild Leaders</Typography>
-    <Typography variant="p" display="block" paragraph>
-      <span className="priest">Yergory</span>,{" "}
-      <span className="hunter">Fallenslayer</span>
+    <Typography
+      variant="h6"
+      style={{
+        paddingLeft: "15px",
+        backgroundColor: "#444444",
+      }}
+      align="center"
+    >
+      Guild Leaders
     </Typography>
-    <Typography variant="h6">Officers</Typography>
-    <Typography variant="p" display="block" paragraph>
-      <span className="mage">Replay</span>, <span className="dh">Pheb</span>
+    <Grid
+      container
+      direction="row"
+      justify="center"
+      alignItems="center"
+      style={{
+        marginBottom: "16px",
+        paddingLeft: "15px",
+      }}
+    >
+      <Grid xs={12} sm={6} align="center">
+        <Typography variant="p" className="priest" display="block">
+          Yergory
+        </Typography>
+      </Grid>
+      <Grid xs={12} sm={6} align="center">
+        <Typography variant="p" className="hunter" display="block">
+          Fallenslayer
+        </Typography>
+      </Grid>
+    </Grid>
+    <Typography
+      variant="h6"
+      style={{
+        paddingLeft: "15px",
+        backgroundColor: "#444444",
+      }}
+      align="center"
+    >
+      Officers
     </Typography>
-    <Typography variant="h6">Main Raiders:</Typography>
-    <Typography variant="p" display="block">
-      <b>Tanks:</b> <span className="dh">Pheb</span>,{" "}
-      <span className="dh">Kaifel</span>
+    <Grid
+      container
+      direction="row"
+      justify="center"
+      alignItems="center"
+      style={{
+        marginBottom: "16px",
+        paddingLeft: "15px",
+      }}
+    >
+      <Grid xs={12} sm={6} align="center">
+        <Typography variant="p" className="dh" display="block">
+          Pheb
+        </Typography>
+      </Grid>
+      <Grid xs={12} sm={6} align="center">
+        <Typography variant="p" className="mage" display="block">
+          Replay
+        </Typography>
+      </Grid>
+    </Grid>
+    <Typography
+      variant="h6"
+      style={{
+        paddingLeft: "15px",
+        backgroundColor: "#444444",
+        marginBottom: "16px",
+      }}
+      align="center"
+    >
+      Main Raiders:
     </Typography>
-    <Typography variant="p" display="block">
-      <b>DPS:</b> <span className="hunter">Fallenslayer</span>,{" "}
-      <span className="shaman">Nevafox</span>,{" "}
-      <span className="mage">Replay</span>,{" "}
-      <span className="shaman">Slothraxx</span>,{" "}
-      <span className="warlock">Puttris</span>,{" "}
-      <span className="warrior">Kiedra</span>,
-      <span className="hunter">Ninjayoder</span>,{" "}
-      <span className="rogue">Fawkes</span>,{" "}
-      <span className="monk">Gamerboypee</span>,{" "}
-      <span className="dk">Elstra</span>
+    <Typography variant="p" align="center" display="block">
+      <b>Tanks</b>
     </Typography>
-    <Typography variant="p" display="block" paragraph>
-      <b>Healers:</b> <span className="priest">Yergory</span>,{" "}
-      <span className="druid">Tankfist</span>,{" "}
-      <span className="shaman">Mespropp</span>
+    <hr style={{ backgroundColor: "rgb(144 144 144)" }} />
+    <Grid
+      container
+      direction="row"
+      justify="center"
+      alignItems="center"
+      style={{
+        marginBottom: "16px",
+        paddingLeft: "15px",
+      }}
+    >
+      <Grid xs={12} sm={6} align="center">
+        <Typography variant="p" className="dh" display="block">
+          Pheb
+        </Typography>
+      </Grid>
+      <Grid xs={12} sm={6} align="center">
+        <Typography variant="p" className="dh" display="block">
+          Kaifel
+        </Typography>
+      </Grid>
+    </Grid>
+    <Typography variant="p" align="center" display="block">
+      <b>DPS</b>
     </Typography>
+    <hr style={{ backgroundColor: "rgb(144 144 144)" }} />
+    <Grid
+      container
+      direction="row"
+      justify="center"
+      alignItems="center"
+      style={{
+        marginBottom: "16px",
+        paddingLeft: "15px",
+      }}
+    >
+      <Grid xs={12} sm={4} align="center">
+        <Typography variant="p" className="hunter" display="block">
+          Fallenslayer
+        </Typography>
+        <Typography variant="p" className="shaman" display="block">
+          Nevafox
+        </Typography>
+        <Typography variant="p" className="mage" display="block">
+          Replay
+        </Typography>
+        <Typography variant="p" className="shaman" display="block">
+          Slothraxx
+        </Typography>
+      </Grid>
+      <Grid xs={12} sm={4} align="center">
+        <Typography variant="p" className="warlock" display="block">
+          Puttris
+        </Typography>
+        <Typography variant="p" className="warrior" display="block">
+          Kiedra
+        </Typography>
+        <Typography variant="p" className="hunter" display="block">
+          Ninjayoder
+        </Typography>
+      </Grid>
+      <Grid xs={12} sm={4} align="center">
+        <Typography variant="p" className="rogue" display="block">
+          Fawkes
+        </Typography>
+        <Typography variant="p" className="monk" display="block">
+          Gamerboypee
+        </Typography>
+        <Typography variant="p" className="dk" display="block">
+          Elstra
+        </Typography>
+      </Grid>
+    </Grid>
+    <Typography variant="p" align="center" display="block">
+      <b>Healers</b>
+    </Typography>
+    <hr style={{ backgroundColor: "rgb(144 144 144)" }} />
+    <Grid
+      container
+      direction="row"
+      justify="center"
+      alignItems="center"
+      style={{
+        marginBottom: "16px",
+        paddingLeft: "15px",
+      }}
+    >
+      <Grid xs={12} sm={4} align="center">
+        <Typography variant="p" className="priest" display="block">
+          Yergory
+        </Typography>
+      </Grid>
+      <Grid xs={12} sm={4} align="center">
+        <Typography variant="p" className="druid" display="block">
+          Tankfist
+        </Typography>
+      </Grid>
+      <Grid xs={12} sm={4} align="center">
+        <Typography variant="p" className="shaman" display="block">
+          Mespropp
+        </Typography>
+      </Grid>
+    </Grid>
   </Layout>
 )
 

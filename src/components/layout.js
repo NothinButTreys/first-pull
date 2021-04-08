@@ -29,7 +29,15 @@ const Layout = ({ children }) => {
       <Header siteTitle={data.site.siteMetadata?.title || `Title`} />
       <Hero />
       <main>
-        <Container maxWidth="md">{children}</Container>
+        <Container
+          maxWidth="md"
+          style={{
+            backgroundColor: "rgb(29 29 29)",
+            padding: "15px",
+          }}
+        >
+          {children}
+        </Container>
       </main>
       <footer>
         <Container maxWidth="md">
