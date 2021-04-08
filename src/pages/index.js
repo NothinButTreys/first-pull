@@ -56,9 +56,12 @@ const IndexPage = () => (
             fontFamily: "snes",
             marginLeft: "30px",
             backgroundColor: "#FFD700",
+            color: "#FFFFFF",
           }}
         >
-          take it
+          <span class="material-icons" style={{ fontSize: "50px" }}>
+            local_atm
+          </span>
         </Button>
       </div>
     </Grid>
