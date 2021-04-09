@@ -1,7 +1,9 @@
+@import "./typography.css";
+
 html {
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
-  font: 140%/1.5em snes;
+  font: 140%/1.5em SNES;
   box-sizing: border-box;
   overflow-y: scroll;
 }
@@ -10,7 +12,7 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   color: #ffffff;
-  font-family: snes;
+  font-family: SNES;
   font-weight: normal;
   letter-spacing: 1px;
   word-wrap: break-word;
@@ -625,7 +627,7 @@ footer {
   }
 }
 .MuiTypography-root {
-  font-family: snes;
+  font-family: SNES;
 }
 
 .MuiButtonBase-root {
