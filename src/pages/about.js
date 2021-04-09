@@ -178,19 +178,20 @@ const SecondPage = () => (
         paddingLeft: "15px",
       }}
     >
-      <Grid xs={12} sm={4} align="center">
+      <Grid xs={12} sm={6} align="center">
         <Typography variant="p" className="priest" display="block">
           Yergory
         </Typography>
-      </Grid>
-      <Grid xs={12} sm={4} align="center">
-        <Typography variant="p" className="druid" display="block">
-          Tankfist
+        <Typography variant="p" className="monk" display="block">
+          Buddytolo
         </Typography>
       </Grid>
-      <Grid xs={12} sm={4} align="center">
+      <Grid xs={12} sm={6} align="center">
         <Typography variant="p" className="shaman" display="block">
           Mespropp
+        </Typography>
+        <Typography variant="p" className="druid" display="block">
+          Tankfist
         </Typography>
       </Grid>
     </Grid>
