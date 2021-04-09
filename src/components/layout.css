@@ -1,4 +1,7 @@
-@import "./typography.css";
+@font-face {
+  font-family: "SNES";
+  src: url("../../public/fonts/SnesItalic-1G9Be.ttf");
+}
 
 html {
   -ms-text-size-adjust: 100%;
